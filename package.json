@@ -1,0 +1,19 @@
+{
+  "name": "app_clone",
+  "version": "1.0.0",
+  "main": "server.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "dependencies": {
+    "concurrently": "^4.1.0",
+    "express": "^4.16.4",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.11"
+  }
+}
